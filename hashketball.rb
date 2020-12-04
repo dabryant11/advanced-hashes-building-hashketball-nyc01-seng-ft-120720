@@ -1,41 +1,38 @@
-def game_hash do 
+def game_hash 
   
-  :home = {
+  :home => {
     
-    team_name: = ""
-    colors: = []
+    :team_name => "Brooklyn Nets",
+    :colors =>  ["Black", "White"],
     :players => [
       
-      {player_name: = },
-      {number: = },
-      {shoe: = },
-      {points: =  }.
-      {rebounds: =  },
-      {assists: = },
-      {steals: =  },
-      {blocks: = },
-      {slam_dunks: = }
+      {player_name: },
+      {number:  },
+      {shoe:  },
+      {points:   }.
+      {rebounds:   },
+      {assists:  },
+      {steals:   },
+      {blocks:  },
+      {slam_dunks: }
     ]
   },
-  :away = {
+  :away => {
     
-    team_name: = ""
-    colors: = []
+    :team_name => "Charlotte Hornet",
+    :colors => ["Turqoise", "Purple"],
     :players => [
       
-      {player_name: = },
-      {number: = },
-      {shoe: = },
-      {points: =  }.
-      {rebounds: =  },
-      {assists: = },
-      {steals: =  },
-      {blocks: = },
-      {slam_dunks: = }
+      {player_name:  },
+      {number:  },
+      {shoe:  },
+      {points:   }.
+      {rebounds:  },
+      {assists:  },
+      {steals:   },
+      {blocks: },
+      {slam_dunks:  }
     ]
   }
-  
-  
-  
   
 end 
