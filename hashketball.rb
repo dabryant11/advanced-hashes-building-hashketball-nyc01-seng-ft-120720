@@ -2,7 +2,7 @@ require 'pry'
 
 def game_hash 
   
-  :home => {
+  {:home => {
     
     :team_name => "Brooklyn Nets",
     :colors =>  ["Black", "White"],
@@ -11,7 +11,7 @@ def game_hash
       {player_name: "",
       number: 0 ,
       shoe: 0 ,
-      points:  0 .
+      points:  0 ,
       rebounds:  0 ,
       assists: 0 ,
       steals:  0 ,
@@ -19,29 +19,30 @@ def game_hash
       slam_dunks: 0}
     ]
   }
+  }
   
-  
-  
-  
-  
-  
-  # ,
-  # :away => {
+  {:away => {
     
-  #   :team_name => "Charlotte Hornet",
-  #   :colors => ["Turqoise", "Purple"],
-  #   :players => [
+    :team_name => "Charlotte Hornets",
+    :colors =>  ["Turqoise", "Purple"],
+    :players => [
       
-  #     {player_name:  },
-  #     {number:  },
-  #     {shoe:  },
-  #     {points:   }.
-  #     {rebounds:  },
-  #     {assists:  },
-  #     {steals:   },
-  #     {blocks: },
-  #     {slam_dunks:  }
-  #   ]
-  # }
+      {player_name: "",
+      number: 0 ,
+      shoe: 0 ,
+      points:  0 ,
+      rebounds:  0 ,
+      assists: 0 ,
+      steals:  0 ,
+      blocks:  0,
+      slam_dunks: 0}
+    ]
+  }
+  }
+
+  
+  
+  
+  
   
 end 
