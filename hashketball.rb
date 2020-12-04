@@ -18,7 +18,7 @@ def game_hash
       blocks:  1,
       slam_dunks: 1},
       
-      {player_name: "Reggi Evans",
+      {player_name: "Reggie Evans",
       number: 30 ,
       shoe: 14,
       points:  12 ,
